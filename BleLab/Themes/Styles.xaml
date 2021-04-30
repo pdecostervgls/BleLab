@@ -344,8 +344,8 @@
         <Setter Property="FontWeight" Value="SemiLight" />
     </Style>
 
-    <Style TargetType="controls:HeaderedTextBlock">
-        <Setter Property="TextStyle" Value="{StaticResource RegularTextBlockStyle}" />
+    <Style TargetType="controls:HeaderedContentControl">
+        <Setter Property="Style" Value="{StaticResource RegularTextBlockStyle}" />
         <Setter Property="HeaderTemplate">
             <Setter.Value>
                 <DataTemplate>

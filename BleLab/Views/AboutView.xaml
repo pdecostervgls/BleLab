@@ -58,9 +58,9 @@
             <Grid Style="{StaticResource TopLevelViewContentGridStyle}">
             
                 <StackPanel MaxWidth="600" HorizontalAlignment="Left">
-                    <controls:HeaderedTextBlock Header="What is this?" Text="Free open source application for interaction with Bluetooth Low Energy devices that support GATT protocol."/>
-                    <controls:HeaderedTextBlock Header="Who is it made for?" Text="The app is made both for developers and IoT enthusiasts who want to play around with their wireless devices."/>
-                    <controls:HeaderedTextBlock Header="Can I contribute?" Text="Sure! Fork our GitHub repo and submit a pull request!"/>
+                    <controls:HeaderedContentControl Header="What is this?" Content="Free open source application for interaction with Bluetooth Low Energy devices that support GATT protocol."/>
+                    <controls:HeaderedContentControl Header="Who is it made for?" Content="The app is made both for developers and IoT enthusiasts who want to play around with their wireless devices."/>
+                    <controls:HeaderedContentControl Header="Can I contribute?" Content="Sure! Fork our GitHub repo and submit a pull request!"/>
 
                     <TextBlock Margin="0 20 0 0" Style="{ThemeResource SubtitleTextBlockStyle}">GitHub repo</TextBlock>
                     <HyperlinkButton  NavigateUri="https://github.com/IanSavchenko/BleLab">https://github.com/IanSavchenko/BleLab</HyperlinkButton>
@@ -76,7 +76,7 @@
                     <TextBlock Margin="0 20 0 0" Style="{StaticResource RegularTextBlockStyle}">Application icon made by <Hyperlink NavigateUri="http://www.freepik.com/">Freepik</Hyperlink> from <Hyperlink NavigateUri="http://www.flaticon.com">flaticon.com</Hyperlink></TextBlock>
                     <TextBlock Margin="0 20 0 0"  Style="{StaticResource RegularTextBlockStyle}">Information about standard GATT services and characteristics provided from <Hyperlink NavigateUri="https://www.bluetooth.com/specifications/gatt">www.bluetooth.com</Hyperlink></TextBlock>
 
-                    <controls:HeaderedTextBlock Header="Privacy notice" Margin="0 20 0 0" Text="This application uses HockeyApp service to collect anonymous usage metrics and crashes. This allows us to make the application better."/>
+                    <controls:HeaderedContentControl Header="Privacy notice" Margin="0 20 0 0" Content="This application uses HockeyApp service to collect anonymous usage metrics and crashes. This allows us to make the application better."/>
                 </StackPanel>
             </Grid>
         </ScrollViewer>
